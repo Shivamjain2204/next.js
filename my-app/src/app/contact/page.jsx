@@ -1,9 +1,10 @@
 import React from 'react'
+import Image from 'next/image';
 
 function contact() {
   return (
-    <div>
-      Contact Page
+    <div className="container my-5 size-80 relative">
+      <Image className="mx-auto" src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736881_640.jpg' fill={true}/>
     </div>
   )
 }
